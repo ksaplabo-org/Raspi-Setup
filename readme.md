@@ -45,3 +45,4 @@ CHOOSE OS→一番上→Strage→選択→Write
   - EC2のIPアドレスを指定するIPアドレスが、EC2のグローバルIPアドレスを指定していた  
   vsCodeのPostではうまくいくが、Lambdaからはうまくいかない
   - VSCodeでJSONを作るときは、’ではなく、”を使う
+- 変更テスト
