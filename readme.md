@@ -1,9 +1,8 @@
-# ラズパイインストール方法  
+# Raspbeery Pi OSインストール方法  
 
 
-- OSを書き込むためのソフト  
+- OSを書き込むためのソフトを以下のURLからインストールする。  
 https://www.raspberrypi.com/software/  
-[url](https://www.raspberrypi.com/software/)   
 
 ```
 インストール→実行   
@@ -28,21 +27,3 @@ CHOOSE OS→一番上→Strage→選択→Write
   - ソフトウェアのアップデートは行う
   - VNCが遅いときの対応方法がTeamsの記事にある  
 - ここまで来たらあとは手順書
-
-# DynamoDBで通知してからまでの流れ  
-- （RaspberryPi）温度・湿度センサー環境の作成  
-→基本は手順書通り。特につまずいてはいない
-- （AWS）IoT Coreで「モノ」情報を作成  
-→右上の作業領域を東京にすることを忘れないように  
-→証明書のダウンロードでつまずくことがあった  
-エンドポイント、ROOTCA→証明書を発行している大元、CERT→証明書、PRIKEY→privatekey  
-→トピック名はIotCoreの掲示板みたいなもので、そこからSelectしてDynamoDBにデータを入れる  
-- ファイル転送のツール　WinSCP
-- 低階層のパイソンから実行し、Lamda関数はAWS上にある、zipファイルはそこから転送する。  
--  
-- lambda関数からEC2に設定するとき  
-  - 手順からLambdaがどのVPC内に設置されるかの設定が抜けている  
-  - EC2のIPアドレスを指定するIPアドレスが、EC2のグローバルIPアドレスを指定していた  
-  vsCodeのPostではうまくいくが、Lambdaからはうまくいかない
-  - VSCodeでJSONを作るときは、’ではなく、”を使う
-- 変更テスト
