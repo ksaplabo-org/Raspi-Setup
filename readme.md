@@ -9,12 +9,16 @@ https://www.raspberrypi.com/software/
 - ダウンロードしたインストーラ（imager_1.7.1.exe）を起動し、インストールを行う。
 - Raspberry Pi Imagerが起動したら、「CHOOSE OS」をクリック。  
 <img alt="OSインストーラ画像" src="./img/OS%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%A9.png" width="300" height="200">
+
 - 「Operating System」から一番上を選択。  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 103252.png" width="300" height="200">
+
 - 次に「Storage」を選択。  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 104434.png" width="300" height="200">
+
 - PCに接続したSDカードを選択。  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 104702.png" width="300" height="200">
+
 - 「WRITE」を選択して、書き込みを行う。(10分ほど掛かります)  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 105111.png" width="300" height="200">
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 105257.png" width="300" height="200">
