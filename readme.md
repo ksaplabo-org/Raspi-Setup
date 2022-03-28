@@ -3,10 +3,8 @@
 
 - OSを書き込むためのソフトを以下のURLからインストールする。  
 https://www.raspberrypi.com/software/  
+<img alt="OSインストーラ画像" src="./img/OSインストールページ.png" width="300" height="200">
 
-```
-インストール→実行   
-```
 <img alt="OSインストーラ画像" src="./img/OS%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%A9.png" width="300" height="200">
 
 ```
