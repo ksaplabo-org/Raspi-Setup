@@ -24,7 +24,7 @@ https://www.raspberrypi.com/software/
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 110757.png" width="300" height="200">
 - 同様のディレクトリにテキストを新規作成し、内容を編集し「wpa_supplicant.conf」という名前で保存。  
 編集内容は以下の通り
-```
+```  
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=JP
@@ -34,7 +34,7 @@ network={
         psk="1つ目のSSIDのパスワード"
         key_mgmt=WPA-PSK
 }
-```
+```  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 111544.png" width="300" height="200">  
 
 ## Raspberry Pi OS設定  
