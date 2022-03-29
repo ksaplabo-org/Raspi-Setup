@@ -110,6 +110,6 @@ sudo raspi-config
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 113954.png" width="700" height="400">  
 以上でセットアップは終了。
 
-##VNC Viewerが遅いときの対応方法
+## VNC Viewerが遅いときの対応方法
  - 以下の記事を参考  
 https://note.com/arcana_tech/n/na53f47a1cfc6
