@@ -1,4 +1,11 @@
 # Raspbeery Pi OSインストール方法  
+## 目次  
+ ## OSのインストール方法  
+ ## Wifi設定の手順  
+ ## Tera Termによる接続確認  
+ ## VNCの有効化  
+ ## Raspberry Pi OS設定  
+ ## VNC Viewerが遅いときの対応方法
 ## OSのインストール方法
 - Raspberry Piに使用するSDカードを自分のPCに接続  
 
@@ -43,7 +50,7 @@ network={
 
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 111544.png" width="700" height="400">  
 
-## Tera Termの接続確認  
+## Tera Termによる接続確認  
 - 上記の手順が終われば、自分のPCからSDカードを抜いて、Raspberry PiにSDカードを入れる。   
 - Raspberry Piの電源をつける。 
 - Raspberry PiのIPアドレスを調べる。  
@@ -69,6 +76,7 @@ network={
 - 以下の画面が表示されたら、接続成功。
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 102642.png" width="300" height="200">  
  
+## VNCの有効化
 - Tera Termから以下のコマンドを実行（VNCの有効化を行う）  
 ```  
 sudo raspi-config
