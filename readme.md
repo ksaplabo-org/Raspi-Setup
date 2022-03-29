@@ -25,7 +25,7 @@ https://www.raspberrypi.com/software/
 
 ## Wifi設定の手順
 - SDカードに書き込みが終わった後、（今回は）Dドライブ直下に「ssh」という空のファイルを新規作成。  
-<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 110757.png" width="300" height="200">  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 110757.png" width="700" height="400">  
 
 - 同様のディレクトリにテキストを新規作成し、内容を編集し「wpa_supplicant.conf」という名前で保存。編集内容は以下の通り  
 
@@ -41,7 +41,7 @@ network={
 }  
 ```
 
-<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 111544.png" width="300" height="200">  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 111544.png" width="700" height="400">  
 
 ## Raspberry Pi OS設定  
 - 上記の手順が終われば、自分のPCからSDカードを抜いて、Raspberry PiにSDカードを入れる。   
@@ -54,9 +54,9 @@ network={
     <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 095453.png" width="300" height="200">  
 
     その中からRaspberry PiのIPアドレスを推測する。（pingを使うとか...）  
-  　※arp -aでIPアドレスがRaspberry PiのIPアドレスが出てこないことがあります。  
+  　※arp -aでRaspberry PiのIPアドレスが出てこないことがあります。  
   - RaspbBerry Piの電源をつけ、ディスプレイと接続しIPアドレスを直接調べる。  
-    ※今のところこのやり方のほうが確実です。  
+    ※今のところ、このやり方のほうが確実です。  
 - Tera Termを起動して接続確認。  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 101604.png" width="300" height="200">
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 101755.png" width="300" height="200">  
