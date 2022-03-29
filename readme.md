@@ -58,7 +58,7 @@ network={
   - RaspbBerry Piの電源をつけ、ディスプレイと接続しIPアドレスを直接調べる。  
     ※今のところこのやり方のほうが確実です。  
 - Tera Termを起動して接続確認。  
-<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 101604.png" width="300" height="200">  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 101604.png" width="300" height="200">
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 101755.png" width="300" height="200">  
 
 - Raspberry Piのデフォルトのユーザー名とパスフレーズは  
@@ -86,14 +86,30 @@ sudo raspi-config
 - VNCの有効化が出来たので、VNC Viewerで接続する。(ユーザー名、パスワードはデフォルト)  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104057.png" width="300" height="200">  
 
--Raspberry Piの画面が表示される。  
+- Raspberry Piの画面が表示される。  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104235.png" width="700" height="400">  
-  - 自分のネットワークから接続しているIPアドレスを調べるコマンド  
-   コマンドプロンプトで　arp -a
-- テラタームからSSHで接続出来たら
-　sudo raspi-config　でVNCを有効化する
-- VNCviwerからラズパイにはいり、OＳセットアップを行う。  
-  - set Country
-  - ソフトウェアのアップデートは行う
-  - VNCが遅いときの対応方法がTeamsの記事にある  
-- ここまで来たらあとは手順書
+
+- ここからRaspberry PiのOSの設定を行う。  
+  上画面から「Next」をクリック。  
+- 「Country」のコンボボックスから「Japan」を選択し、Nextをクリック。  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 110900.png" width="700" height="400">  
+
+- 新規パスワードの設定はそのままにするので、「Next」をクリック。  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 111422.png" width="700" height="400">  
+
+- 「Next」をクリック。  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 111654.png" width="700" height="400">  
+
+- 接続先のWi-Fiのネットワークを選択し、「Next」をクリック。  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 111912.png" width="700" height="400">  
+
+- ソフトウェアのアップデートを行うので、「Next」をクリック。(10分ほどかかる)  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 112040.png" width="700" height="400">  
+
+- 再起動を行うため、「ReStart」をクリック。
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 113954.png" width="700" height="400">  
+以上でセットアップは終了。
+
+##VNC Viewerが遅いときの対応方法
+ - 以下の記事を参考  
+https://note.com/arcana_tech/n/na53f47a1cfc6
