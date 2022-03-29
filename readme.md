@@ -69,13 +69,25 @@ network={
 - 以下の画面が表示されたら、接続成功。
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 102642.png" width="300" height="200">  
  
-- Tera Termから以下のコマンドを実行（VNCの有効化）  
+- Tera Termから以下のコマンドを実行（VNCの有効化を行う）  
 ```  
 sudo raspi-config
 ```  
 
+- 「3 Interface Options」を選択し、Enter  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 103209.png" width="300" height="200">  
 
+- 「I3 VNC」を選択し、Enter  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 103419.png" width="300" height="200">  
 
+- 「Yse」を選択しEnter  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 103555.png" width="300" height="200">  
+
+- VNCの有効化が出来たので、VNC Viewerで接続する。(ユーザー名、パスワードはデフォルト)  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104057.png" width="300" height="200">  
+
+-Raspberry Piの画面が表示される。  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104235.png" width="300" height="200">  
   - 自分のネットワークから接続しているIPアドレスを調べるコマンド  
    コマンドプロンプトで　arp -a
 - テラタームからSSHで接続出来たら
