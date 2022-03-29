@@ -1,23 +1,15 @@
 # Raspbeery Pi OSインストール方法  
-## 目次  
- - OSのインストール方法  
- - Wifi設定の手順  
- - Tera Termによる接続確認  
- - VNCの有効化  
- - Raspberry Pi OS設定  
- - VNC Viewerが遅いときの対応方法  
-
- 
 ## 目次
 - [OSのインストール方法](#content1)
-
-<h2 id="usage">使い方</h2>
-Consectetur Commodo Cursus Sollicitudin Vehicula
+- [Wifi設定の手順](#content2)
+- [Tera Termによる接続確認](#content3)
+- [VNCの有効化](#content4)
+- [Raspberry Pi OS設定](#content5)
+- [VNC Viewerが遅いときの対応方法](#content6)
 
 <br>
 
-<h2 id="content1">OSのインストール方法</h2>
-Consectetur Commodo Cursus Sollicitudin Vehicula  
+<h2 id="content1">OSのインストール方法</h2>  
 - Raspberry Piに使用するSDカードを自分のPCに接続  
 
 - インストーラを以下のURLからダウンロードする。  
