@@ -16,7 +16,7 @@ Consectetur Commodo Cursus Sollicitudin Vehicula
 
 <br>
 
-<h2 id="content1">使い方</h2>
+<h2 id="content1">OSのインストール方法</h2>
 Consectetur Commodo Cursus Sollicitudin Vehicula  
 - Raspberry Piに使用するSDカードを自分のPCに接続  
 
