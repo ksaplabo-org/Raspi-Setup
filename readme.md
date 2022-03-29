@@ -43,7 +43,7 @@ network={
 
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 111544.png" width="700" height="400">  
 
-## Raspberry Pi OS設定  
+## Tera Termの接続確認  
 - 上記の手順が終われば、自分のPCからSDカードを抜いて、Raspberry PiにSDカードを入れる。   
 - Raspberry Piの電源をつける。 
 - Raspberry PiのIPアドレスを調べる。  
@@ -80,12 +80,13 @@ sudo raspi-config
 - 「I3 VNC」を選択し、Enter  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 103419.png" width="300" height="200">  
 
-- 「Yse」を選択しEnter  
+- 「Yes」を選択しEnter  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 103555.png" width="300" height="200">  
 
 - VNCの有効化が出来たので、VNC Viewerで接続する。(ユーザー名、パスワードはデフォルト)  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104057.png" width="300" height="200">  
 
+## Raspberry Pi OS設定  
 - Raspberry Piの画面が表示される。  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104235.png" width="700" height="400">  
 
