@@ -45,10 +45,23 @@ network={
 
 ## Raspberry Pi OS設定  
 - 上記の手順が終われば、自分のPCからSDカードを抜いて、Raspberry PiにSDカードを入れる。   
-- Raspberry Piの電源をつける。  
-- 【参考：Raspberry PiのIPアドレスの調べ方】  
-  - 自分のPCとRaspberry Piが同じネットワークに接続されていれば  
-    Windowsのコマンドプロンプトから「arp -a」で43.125
+- Raspberry Piの電源をつける。 
+- Raspberry PiのIPアドレスを調べる。  
+【参考：Raspberry PiのIPアドレスの調べ方】  
+ 確実にIPアドレスがわかる方法が確立していないため、例としていくつか紹介します。
+  - Windowsのコマンドプロンプトから「arp -a」を実行すると  
+  　同一セグメント内に存在するIPアドレス-物理アドレスの一覧が表示されるため  
+    <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 095453.png" width="300" height="200">  
+
+    その中からRaspberry PiのIPアドレスを推測する。（pingを使うとか...）  
+  　※arp -aでIPアドレスがRaspberry PiのIPアドレスが出てこないことがあります。  
+  - RaspbBerry Piの電源をつけ、ディスプレイと接続しIPアドレスを直接調べる。  
+    今のところこのやり方のほうが確実です。
+  　
+    
+    
+    
+    43.125
 
   - 自分のネットワークから接続しているIPアドレスを調べるコマンド  
    コマンドプロンプトで　arp -a
