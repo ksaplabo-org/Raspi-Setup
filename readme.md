@@ -5,8 +5,9 @@
  ## Tera Termによる接続確認  
  ## VNCの有効化  
  ## Raspberry Pi OS設定  
- ## VNC Viewerが遅いときの対応方法
-## OSのインストール方法
+ ## VNC Viewerが遅いときの対応方法  
+<br>
+## OSのインストール方法  
 - Raspberry Piに使用するSDカードを自分のPCに接続  
 
 - インストーラを以下のURLからダウンロードする。  
