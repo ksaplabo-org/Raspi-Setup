@@ -7,8 +7,6 @@
 - [Raspberry Pi OS設定](#content5)
 - [VNC Viewerが遅いときの対応方法](#content6)
 
-<br>
-
 <h2 id="content1">OSのインストール方法</h2>  
 - Raspberry Piに使用するSDカードを自分のPCに接続  
 
@@ -33,7 +31,8 @@ https://www.raspberrypi.com/software/
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 105111.png" width="300" height="200">
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 105257.png" width="300" height="200">
 
-## Wifi設定の手順
+<h2 id="content2">Wifi設定の手順</h2>  
+
 - SDカードに書き込みが終わった後、（今回は）Dドライブ直下に「ssh」という空のファイルを新規作成。  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 110757.png" width="700" height="400">  
 
@@ -53,7 +52,8 @@ network={
 
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 111544.png" width="700" height="400">  
 
-## Tera Termによる接続確認  
+<h2 id="content3">Tera Termによる接続確認</h2>  
+
 - 上記の手順が終われば、自分のPCからSDカードを抜いて、Raspberry PiにSDカードを入れる。   
 - Raspberry Piの電源をつける。 
 - Raspberry PiのIPアドレスを調べる。  
@@ -79,7 +79,8 @@ network={
 - 以下の画面が表示されたら、接続成功。
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 102642.png" width="300" height="200">  
  
-## VNCの有効化
+<h2 id="content4">VNCの有効化</h2>  
+
 - Tera Termから以下のコマンドを実行（VNCの有効化を行う）  
 ```  
 sudo raspi-config
@@ -97,7 +98,8 @@ sudo raspi-config
 - VNCの有効化が出来たので、VNC Viewerで接続する。(ユーザー名、パスワードはデフォルト)  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104057.png" width="300" height="200">  
 
-## Raspberry Pi OS設定  
+<h2 id="content5">Raspberry Pi OS設定</h2> 
+ 
 - Raspberry Piの画面が表示される。  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104235.png" width="700" height="400">  
 
@@ -122,6 +124,7 @@ sudo raspi-config
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 113954.png" width="700" height="400">  
 以上でセットアップは終了。
 
-## VNC Viewerが遅いときの対応方法
+<h2 id="content6">VNC Viewerが遅いときの対応方法</h2> 
+
  - 以下の記事を参考  
 https://note.com/arcana_tech/n/na53f47a1cfc6  
