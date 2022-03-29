@@ -6,9 +6,18 @@
  - VNCの有効化  
  - Raspberry Pi OS設定  
  - VNC Viewerが遅いときの対応方法  
+
+ 
+## 目次
+- [OSのインストール方法](#content1)
+
+<h2 id="usage">使い方</h2>
+Consectetur Commodo Cursus Sollicitudin Vehicula
+
 <br>
 
-## OSのインストール方法  
+<h2 id="content1">使い方</h2>
+Consectetur Commodo Cursus Sollicitudin Vehicula  
 - Raspberry Piに使用するSDカードを自分のPCに接続  
 
 - インストーラを以下のURLからダウンロードする。  
@@ -123,11 +132,4 @@ sudo raspi-config
 
 ## VNC Viewerが遅いときの対応方法
  - 以下の記事を参考  
-https://note.com/arcana_tech/n/na53f47a1cfc6
-
-
-## 目次
-- [使い方](#usage)
-
-<h2 id="usage">使い方</h2>
-Consectetur Commodo Cursus Sollicitudin Vehicula
+https://note.com/arcana_tech/n/na53f47a1cfc6  
