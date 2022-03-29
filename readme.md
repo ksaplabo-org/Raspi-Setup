@@ -56,12 +56,25 @@ network={
     その中からRaspberry PiのIPアドレスを推測する。（pingを使うとか...）  
   　※arp -aでIPアドレスがRaspberry PiのIPアドレスが出てこないことがあります。  
   - RaspbBerry Piの電源をつけ、ディスプレイと接続しIPアドレスを直接調べる。  
-    今のところこのやり方のほうが確実です。
-  　
+    ※今のところこのやり方のほうが確実です。  
+- Tera Termを起動して接続確認。  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 101604.png" width="300" height="200">  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 101755.png" width="300" height="200">  
+
+- Raspberry Piのデフォルトのユーザー名とパスフレーズは  
+  - ユーザー名：pi  
+  - パスフレーズ：raspberry  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 102448.png" width="300" height="200">  
     
-    
-    
-    43.125
+- 以下の画面が表示されたら、接続成功。
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 102642.png" width="300" height="200">  
+ 
+- Tera Termから以下のコマンドを実行（VNCの有効化）  
+```  
+sudo raspi-config
+```  
+
+
 
   - 自分のネットワークから接続しているIPアドレスを調べるコマンド  
    コマンドプロンプトで　arp -a
