@@ -87,7 +87,7 @@ sudo raspi-config
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104057.png" width="300" height="200">  
 
 -Raspberry Piの画面が表示される。  
-<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104235.png" width="300" height="200">  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104235.png" width="700" height="400">  
   - 自分のネットワークから接続しているIPアドレスを調べるコマンド  
    コマンドプロンプトで　arp -a
 - テラタームからSSHで接続出来たら
