@@ -8,8 +8,8 @@
 - [VNC Viewerが遅いときの対応方法](#content6)
 
 <h2 id="content1">OSのインストール方法</h2>  
-- Raspberry Piに使用するSDカードを自分のPCに接続  
 
+- Raspberry Piに使用するSDカードを自分のPCに接続  
 - インストーラを以下のURLからダウンロードする。  
 https://www.raspberrypi.com/software/  
 <img alt="OSインストーラ画像" src="./img/OSインストールページ.png" width="700" height="400">  
