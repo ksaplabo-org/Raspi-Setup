@@ -126,6 +126,7 @@ sudo raspi-config
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104235.png" width="700" height="400">  
 
 - ここからRaspberry PiのOSの設定を行う。  
+※以下の手順はImager1.7.2の手順に従っている場合、必要ない  
   上画面から「Next」をクリック。  
 - 「Country」のコンボボックスから「Japan」を選択し、Nextをクリック。  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 110900.png" width="700" height="400">  
@@ -144,7 +145,10 @@ sudo raspi-config
 
 - 再起動を行うため、「ReStart」をクリック。
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 113954.png" width="700" height="400">  
-以上でセットアップは終了。
+以上でセットアップは終了。  
+
+※右上にソフトウェアのアップデートがある場合、アップデートを行うこと  
+<img alt="OSインストーラ画像" src="./img/172-5.png" width="700" height="400">  
 
 <h2 id="content6">VNC Viewerが遅いときの対応方法</h2> 
 
