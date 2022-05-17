@@ -16,7 +16,7 @@ https://www.raspberrypi.com/software/
 
 ※バージョンが1.7.2になったことにより、操作画面の英語が日本語になりました。  
 
-- ダウンロードしたインストーラ（~~imager_1.7.1~~imager1.7.2.exe）を起動し、インストールを行う。
+- ダウンロードしたインストーラ（~~imager_1.7.1~~ imager1.7.2.exe）を起動し、インストールを行う。
 - Raspberry Pi Imagerが起動したら、「CHOOSE OS」をクリック。  
 <img alt="OSインストーラ画像" src="./img/OS%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%A9.png" width="300" height="200">
 
