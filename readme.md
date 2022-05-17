@@ -40,6 +40,12 @@ https://www.raspberrypi.com/software/
 「SSHを有効化する」にチェックをつけ、「パスワード認証を使う」を選択状態にする  
 <img alt="OSインストーラ画像" src="./img/172-2.png" width="550" height="300">
 
+下にスクロールし、「ユーザー名とパスワードを設定する」にチェックをつけ  
+パスワードを設定する(ここでは使い慣れている「raspberry」としたが、何でもよい)  
+また、「Wi-Fiを設定する」にチェックをつけ  
+使用するWi-FiのSSIDとパスワードを入力する  
+<img alt="OSインストーラ画像" src="./img/172-3.png" width="550" height="300">
+
 
 
 <h2 id="content2">Wifi設定の手順</h2>  
