@@ -35,7 +35,7 @@ https://www.raspberrypi.com/software/
 
 ※ここからImager1.7.2に追加された内容  
 右下の歯車をクリック  
-<img alt="OSインストーラ画像" src="./img/172-1.png" width="500" height="400">
+<img alt="OSインストーラ画像" src="./img/172-1.png" width="400" height="300">
 
 <h2 id="content2">Wifi設定の手順</h2>  
 
