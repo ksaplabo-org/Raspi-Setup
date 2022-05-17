@@ -35,7 +35,12 @@ https://www.raspberrypi.com/software/
 
 ※ここからImager1.7.2に追加された内容  
 右下の歯車をクリック  
-<img alt="OSインストーラ画像" src="./img/172-1.png" width="500" height="300">
+<img alt="OSインストーラ画像" src="./img/172-1.png" width="500" height="300">  
+
+「SSHを有効化する」にチェックをつけ、「パスワード認証を使う」を選択状態にする  
+<img alt="OSインストーラ画像" src="./img/172-2.png" width="500" height="300">
+
+
 
 <h2 id="content2">Wifi設定の手順</h2>  
 
