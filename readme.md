@@ -148,7 +148,7 @@ sudo raspi-config
 以上でセットアップは終了。  
 
 ※右上にソフトウェアのアップデートがある場合、アップデートを行うこと  
-<img alt="OSインストーラ画像" src="./img/172-5.png" width="700" height="400">  
+<img alt="OSインストーラ画像" src="./img/172-5.png" width="600" height="400">  
 
 <h2 id="content6">VNC Viewerが遅いときの対応方法</h2> 
 
