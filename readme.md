@@ -31,11 +31,11 @@ https://www.raspberrypi.com/software/
 
 - 「WRITE」を選択して、書き込みを行う。(10分ほど掛かります)  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 105111.png" width="300" height="200">
-<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 105257.png" width="300" height="200">
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 105257.png" width="00" height="200">
 
 ※ここからImager1.7.2に追加された内容  
 右下の歯車をクリック  
-<img alt="OSインストーラ画像" src="./img/172-1.png" width="300" height="200">
+<img alt="OSインストーラ画像" src="./img/172-1.png" width="500" height="400">
 
 <h2 id="content2">Wifi設定の手順</h2>  
 
