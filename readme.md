@@ -29,10 +29,6 @@ https://www.raspberrypi.com/software/
 - PCに接続したSDカードを選択。  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 104702.png" width="300" height="200">
 
-- 「WRITE」を選択して、書き込みを行う。(10分ほど掛かります)  
-<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 105111.png" width="300" height="200">
-<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 105257.png" width="00" height="200">
-
 ※ここからImager1.7.2に追加された内容  
 右下の歯車をクリック  
 <img alt="OSインストーラ画像" src="./img/172-1.png" width="550" height="300">  
@@ -50,11 +46,15 @@ https://www.raspberrypi.com/software/
 タイムゾーンを「Asia/Tokyo」にする  
 <img alt="OSインストーラ画像" src="./img/172-4.png" width="550" height="300">  
 
-ここまで出来たら、一番下の「保存」を押し、USEを抜く  
+ここまで出来たら、一番下の「保存」を押す   
+
+- 「WRITE」を選択して、書き込みを行う。(10分ほど掛かります)  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 105111.png" width="300" height="200">
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 105257.png" width="00" height="200">
 
 <h2 id="content2">Wifi設定の手順</h2>  
 
-※Imagerのバージョン1.7.2の手順に従っている場合、飛ばしてよい  
+※Imagerのバージョン1.7.2の手順に従っている場合、「Wi-Fi設定の手順」は飛ばしてよい  
 - SDカードに書き込みが終わった後、（今回は）Dドライブ直下に「ssh」という空のファイルを新規作成。  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 110757.png" width="700" height="400">  
 
