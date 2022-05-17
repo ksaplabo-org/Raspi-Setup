@@ -44,12 +44,17 @@ https://www.raspberrypi.com/software/
 パスワードを設定する(ここでは使い慣れている「raspberry」としたが、何でもよい)  
 また、「Wi-Fiを設定する」にチェックをつけ  
 使用するWi-FiのSSIDとパスワードを入力する  
-<img alt="OSインストーラ画像" src="./img/172-3.png" width="550" height="300">
+<img alt="OSインストーラ画像" src="./img/172-3.png" width="550" height="300">  
 
+さらに下にスクロールし、「ロケール設定する」にチェックをつけ  
+タイムゾーンを「Asia/Tokyo」にする  
+<img alt="OSインストーラ画像" src="./img/172-4.png" width="550" height="300">  
 
+ここまで出来たら、一番下の「保存」を押し、USEを抜く  
 
 <h2 id="content2">Wifi設定の手順</h2>  
 
+※Imagerのバージョン1.7.2の手順に従っている場合、飛ばしてよい  
 - SDカードに書き込みが終わった後、（今回は）Dドライブ直下に「ssh」という空のファイルを新規作成。  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-28 110757.png" width="700" height="400">  
 
