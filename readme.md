@@ -111,7 +111,7 @@ sudo raspi-config
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 103209.png" width="300" height="200">  
 
 - 「I5 I2C」を選択し、Enter  
-<img alt="OSインストーラ画像" src="./img/i2c1.png" width="300" height="200">  
+<img alt="OSインストーラ画像" src="./img/i2c1.png" width="400" height="200">  
 
 <h2 id="content4">VNCの有効化</h2>  
 
