@@ -3,6 +3,7 @@
 - [OSのインストール方法](#content1)
 - [Wifi設定の手順](#content2)
 - [Tera Termによる接続確認](#content3)
+- [I2Cの有効化](#content3)
 - [VNCの有効化](#content4)
 - [Raspberry Pi OS設定](#content5)
 - [VNC Viewerが遅いときの対応方法](#content6)
@@ -101,9 +102,20 @@ network={
 - 以下の画面が表示されたら、接続成功。
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 102642.png" width="300" height="200">  
  
+<h2 id="content4">I2Cの有効化</h2>
+- Tera Termから以下のコマンドを実行  
+```  
+sudo raspi-config
+```  
+- 「3 Interface Options」を選択し、Enter  
+<img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 103209.png" width="300" height="200">  
+
+- 「I5 I2C」を選択し、Enter  
+<img alt="OSインストーラ画像" src="./img/i2c1" width="300" height="200">  
+
 <h2 id="content4">VNCの有効化</h2>  
 
-- Tera Termから以下のコマンドを実行（VNCの有効化を行う）  
+- Tera Termから以下のコマンドを実行  
 ```  
 sudo raspi-config
 ```  
