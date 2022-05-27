@@ -3,10 +3,10 @@
 - [OSのインストール方法](#content1)
 - [Wifi設定の手順](#content2)
 - [Tera Termによる接続確認](#content3)
-- [I2Cの有効化](#content3)
-- [VNCの有効化](#content4)
-- [Raspberry Pi OS設定](#content5)
-- [VNC Viewerが遅いときの対応方法](#content6)
+- [I2Cの有効化](#content4)
+- [VNCの有効化](#content5)
+- [Raspberry Pi OS設定](#content6)
+- [VNC Viewerが遅いときの対応方法](#content7)
 
 <h2 id="content1">OSのインストール方法</h2>  
 
@@ -103,10 +103,13 @@ network={
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 102642.png" width="300" height="200">  
  
 <h2 id="content4">I2Cの有効化</h2>
+
 - Tera Termから以下のコマンドを実行  
+
 ```  
 sudo raspi-config
 ```  
+
 - 「3 Interface Options」を選択し、Enter  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 103209.png" width="300" height="200">  
 
@@ -117,7 +120,7 @@ sudo raspi-config
 <img alt="OSインストーラ画像" src="./img/i2c2.png" width="380" height="200">  
 
 
-<h2 id="content4">VNCの有効化</h2>  
+<h2 id="content5">VNCの有効化</h2>  
 
 - Tera Termから以下のコマンドを実行  
 ```  
@@ -136,7 +139,7 @@ sudo raspi-config
 - VNCの有効化が出来たので、VNC Viewerで接続する。(ユーザー名、パスワードはデフォルト)  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104057.png" width="300" height="200">  
 
-<h2 id="content5">Raspberry Pi OS設定</h2> 
+<h2 id="content6">Raspberry Pi OS設定</h2> 
  
 - Raspberry Piの画面が表示される。  
 <img alt="OSインストーラ画像" src="./img/スクリーンショット 2022-03-29 104235.png" width="700" height="400">  
@@ -166,7 +169,7 @@ sudo raspi-config
 ※右上にソフトウェアのアップデートがある場合、アップデートを行うこと(バージョン1.7.2も)  
 <img alt="OSインストーラ画像" src="./img/172-5.png" width="600" height="400">  
 
-<h2 id="content6">VNC Viewerが遅いときの対応方法</h2> 
+<h2 id="content7">VNC Viewerが遅いときの対応方法</h2> 
 
  - 以下の記事を参考  
 https://note.com/arcana_tech/n/na53f47a1cfc6  
