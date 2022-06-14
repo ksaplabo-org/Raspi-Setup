@@ -7,6 +7,7 @@
 - [VNCの有効化](#content5)
 - [Raspberry Pi OS設定](#content6)
 - [VNC Viewerが遅いときの対応方法](#content7)
+- [VSCodeのインストール](#content8)
 
 <h2 id="content1">OSのインストール方法</h2>  
 
@@ -173,3 +174,10 @@ sudo raspi-config
 
  - 以下の記事を参考  
 https://note.com/arcana_tech/n/na53f47a1cfc6  
+
+
+<h2 id="content8">VSCodeのインストール</h2>  
+
+以下のサイトを参考に行う  
+https://invisiblepotato.com/raspberrypi07/  
+  
